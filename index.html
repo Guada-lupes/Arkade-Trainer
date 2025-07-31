@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arkade Trainer</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <dialog id="window">
+      <h1 id="end_of_game" style="text-align: center;  color: #e96d97">Fin del juego</h1>
+      <p style="text-align: center;">Tu puntuación es de:</p>
+      <h3 id="score" style="text-align: center"></h3>
+      <form style="display: flex; justify-content: center; margin-top: 10%">
+        <button
+          formmethod="dialog"
+          id="acept"
+          style="
+            padding: 3%;
+            border-radius: 5px;
+            border: 0.3px solid #9f9595;
+            background-color: #efaac1;
+            font-size: medium;
+          "
+        >
+          Aceptar
+        </button>
+      </form>
+    </dialog>
+    <h1 style="color :#e96d97;">Arkade trainer</h1>
+    <canvas id="canvas"> </canvas>
+    <script src="/js/controls.js" type="module"></script>
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/player.js" type="module"></script>
+    <script src="/js/ball.js" type="module"></script>
+  </body>
+</html>
