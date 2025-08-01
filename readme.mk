@@ -18,8 +18,8 @@
 
 ## 📚 Inspiración
 
-El proyecto está inspirado en el tutorial de YouTube de Midudev:  
-[https://www.youtube.com/watch?v=P3n28hPyYOk](https://www.youtube.com/watch?v=P3n28hPyYOk)
+El proyecto está inspirado en el tutorial de YouTube de BetoMoedano:  
+[https://www.youtube.com/watch?v=P3n28hPyYOk&t=3590s]
 
 A partir de ese tutorial, realicé mis propias modificaciones y mejoras para adaptar el código, reorganizar la estructura y practicar buenas prácticas de desarrollo.
 
