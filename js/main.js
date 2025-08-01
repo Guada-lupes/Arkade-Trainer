@@ -1,5 +1,6 @@
 import { Player } from "./player.js";
 import { Ball } from "./ball.js";
+import { getAleatoryColor } from "./utils/color.js";
 
 //traemos canvas del dom
 const canvas = document.getElementById("canvas");
@@ -28,23 +29,7 @@ button.addEventListener("click", () => {
   location.reload();
 });
 
-//Función para color aleatorio
-function getAleatoryColor() {
 
-    function aleatorySymbol() {
-      let negative = Math.round(Math.random());
-      if (negative === 0) {
-        return "-";
-      } else {
-        return "+";
-      }
-    }
-    let number = Math.floor(Math.random() * 125);
-
-    console.log(aleatorySymbol()+number);
-    
-  return aleatorySymbol()+number;
-}
 
 //Función para golpear pelota
 function hitBall() {
