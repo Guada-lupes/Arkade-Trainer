@@ -48,8 +48,7 @@ A partir de ese tutorial, realicé mis propias modificaciones y mejoras para ada
 
 ## 📁 Estructura del proyecto
 
-```plaintext
-arkanoid-trainer/
+epic game/
 ├── index.html
 ├── index.css
 ├── /js
