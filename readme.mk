@@ -1,6 +1,6 @@
-# 🕹️ Arkade Trainer
+# 🕹️ Arkanoid Trainer
 
-**Arkade Trainer** es un pequeño juego arcade desarrollado con JavaScript puro y HTML Canvas. Consiste en golpear una pelota con una barra controlada por el teclado. Cada dos golpes, la velocidad de la pelota aumenta, y el juego finaliza cuando la bola toca el borde inferior. La puntuación final corresponde al número de golpes acertados.
+**Arkanoid Trainer** es un pequeño juego arcade desarrollado con JavaScript puro y HTML Canvas. Consiste en golpear una pelota con una barra controlada por el teclado. Cada dos golpes, la velocidad de la pelota aumenta, y el juego finaliza cuando la bola toca el borde inferior. La puntuación final corresponde al número de golpes acertados.
 
 ---
 
@@ -49,7 +49,7 @@ A partir de ese tutorial, realicé mis propias modificaciones y mejoras para ada
 ## 📁 Estructura del proyecto
 
 ```plaintext
-arkade-trainer/
+arkanoid-trainer/
 ├── index.html
 ├── index.css
 ├── /js
